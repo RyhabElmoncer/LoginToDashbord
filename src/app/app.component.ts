@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'myProject';
+  title = 'VentaProject';
   constructor(private router: Router) {}
   ngOnInit() {
     if (localStorage.getItem('isLoggedIn')) {
